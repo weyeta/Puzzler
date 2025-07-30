@@ -12,7 +12,7 @@ const App = () => {
     const [suggestions, setSuggestions] = useState([]);
     const [confirmedPieces, setConfirmedPieces] = useState([]);
 
-const handleImageUpload = (uploadedImage: File) => {
+const handleImageUpload = (uploadedImage: any) => {
     setImage(uploadedImage);
     // Lógica adicional aquí
 };
