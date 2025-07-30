@@ -12,10 +12,10 @@ const App = () => {
     const [suggestions, setSuggestions] = useState([]);
     const [confirmedPieces, setConfirmedPieces] = useState([]);
 
-    const handleImageUpload = (uploadedImage) => {
-        setImage(uploadedImage);
-        // Additional logic for processing the image can be added here
-    };
+const handleImageUpload = (uploadedImage: File) => {
+    setImage(uploadedImage);
+    // Lógica adicional aquí
+};
 
     const handlePieceCountChange = (count) => {
         setPieceCount(count);
