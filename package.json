@@ -13,3 +13,4 @@
     "deploy": "gh-pages -d build"  
   },
 "homepage": "https://weyeta.github.io/Puzzler"
+}
